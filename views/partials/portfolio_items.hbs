@@ -1,0 +1,15 @@
+{{#each portfolio }}
+<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+<div class="portfolio-wrap">
+    <img src={{image}} class="img-fluid" alt="">
+    <div class="portfolio-info">
+    <h4>{{title}}</h4>
+    <p>{{description}}</p>
+    </div>
+    <div class="portfolio-links">
+    <a href={{image}} data-gallery="portfolioGallery" class="portfolio-lightbox" title={{title}}><i class="bx bx-plus"></i></a>
+    <a href="/portfolio-details" title="More Details"><i class="bx bx-link"></i></a>
+    </div>
+</div>
+</div>
+{{/each}}
